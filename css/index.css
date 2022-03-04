@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box!important;
+}
+
+.header {
+    width: 100%;
+    min-height: 80px;
+    
+}
+
+.topHeader {
+    width: 100%;
+    background: linear-gradient(180deg, #1950B4 0%, rgba(43, 98, 198, 0) 92.95%);
+    position: fixed;
+    top: 0;
+    left: 0;  
+    z-index: 5;
+}
+
+.header .row {
+    align-items: center;
+}
+
+.logo__text {
+    font-size: 36px;
+    color: #fff;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+
+.nav__link {
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #10EBF8;
+}
+
+.nav__link_btn {
+    display: inline-block;
+    background: rgba(11, 34, 75, 0.4);
+    border: 1px solid #10EBF8;
+    color: #10EBF8;
+    padding: 8px 25px;
+}
+
+.nav__link_btn:hover {
+   color: #fff;
+   background-color: #10EBF8;
+}
+
+
+.burger__line {
+    display: block;
+    width: 30px;
+    height: 2px;
+    border-radius: 2px;
+    background: #fff;
+    margin-bottom: 8px;
+}
+
+.wrapperSlider {
+    min-height: 100%;
+}
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide--1 {
+    background: url('../img/slide1.jpg') center / cover no-repeat;
+}
+.swiper-slide--2 {
+    background: url('../img/slide2.jpg') center / cover no-repeat;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.slideTitle {
+    width: 650px;
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.slideText {
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+.slideBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 65;
+    background-color: #10EBF8;
+    border: 1px solid #10EBF8;
+    font-size: 15px;
+    font-weight: 900;
+    color: #191919;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 25px 0;
+}
+
+.slideBtn:hover {
+    background: rgba(11, 34, 75, 0.4);
+    border: 1px solid #10EBF8;
+    color: #10EBF8;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+.wrapperS__item {
+    display: flex;
+    align-items: center;
+}
+
+.wrapperS__item > img {
+}
+
+.wrapperS__item a {
+    display: block;
+}
