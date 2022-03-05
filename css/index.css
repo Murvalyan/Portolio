@@ -123,13 +123,49 @@ body {
     border: 1px solid #10EBF8;
     color: #10EBF8;
 }
-.swiper-button-next::after,
-.swiper-button-prev::after{
-    font-size: 16px;
-    color: #fff;
+
+
+.swiper-button-prev {
+    top: 45.5%;
+    left: 96%;
+
+}
+
+.swiper-button-next {
+    left: 96%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    padding: 20px 30px;
+    background-color: #08183599; 
+}
+
+.swiper-button-next {
+    border-radius: 0 0 50% 50%;
+
+}
+
+.swiper-button-prev {
+    border-radius: 50% 50% 0 0;
+
 }
 
 
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    transform: rotate(90deg);
+    font-size: 24px;    
+    color: #fff;
+    padding: 20px 10px;
+}
+
+/* .swiper-button-disabled-prev::after {
+    opacity: 1;
+    border: 1px solid #10EBF8;
+    border-radius: 50% 0 0 50%; 
+
+}*/
 
 .wrapperS__item {
     display: flex;
