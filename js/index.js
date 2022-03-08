@@ -10,3 +10,15 @@ const swiper = new Swiper('.swiper', {
   noSwipingClass: 'swiper-no-swiping'
 
 });
+
+const burgerActive = () => {
+  let active = document.querySelector('.nav__list');
+  active.classList.toggle('activeBurger');
+
+}
+
+const burger = document.querySelector('.burger');
+
+burger.addEventListener('click', burgerActive);
+
+
